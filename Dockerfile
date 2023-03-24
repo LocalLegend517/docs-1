@@ -1,4 +1,4 @@
-FROM perl:5.30-buster
+FROM perl:5.30-buster@sha256:dfabce8b714d2bb20b95bb34dc445314cc526a94c3e39ac21cae5de8bce68ede
 
 RUN set -eux; \
 	apt-get update; \
